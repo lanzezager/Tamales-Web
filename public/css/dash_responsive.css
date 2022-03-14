@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) {
+  .movil_boton{
+  	visibility: hidden;
+  }
+
+  [role="main"]{
+  	padding-top: 2em !important;
+  }
+}
+ 
+@media screen and (max-width: 767px) {
+  .movil_boton{
+  	margin-top: 3em;
+  	float: left;
+  	z-index: 101;
+  	background-color:#ffffff;
+  }
+
+  #movil_boton_derecha{
+  	position: fixed;
+  	z-index: 101;
+  	margin-left: 1em;
+  }
+
+  #movil_boton_izquierda{
+  	visibility: hidden;
+  	float: left;
+  	margin-left: 14em;
+  	position: fixed;
+  	z-index: 101;
+  }
+
+  #sidebar_menu_lz{
+  	width: 25%;
+  	margin-left: -35%;
+  }
+
+  [role="main"]{
+  	padding-top: 2em !important;
+  	margin-left: 1em !important;
+  	width: 150%;
+  	z-index: 98;
+	}
+
+	#botones_menu{
+		z-index: 101;
+		width: 15em;
+		height: 3em;
+	}
+
+	.row{
+		z-index: 98 !important;
+	}
+}
+
+@media screen and (max-width: 575px) {
+  .movil_boton{
+  	margin-top: 6em;
+  	float: left;
+  	z-index: 101;
+  	background-color:#ffffff;
+  }
+
+  #movil_boton_derecha{
+  	position: fixed;
+  	z-index: 101;
+  	margin-left: 2em;
+  }
+
+  #movil_boton_izquierda{
+  	visibility:hidden;
+  	float: left;
+  	z-index: 101;
+  	margin-left: 13em;
+  }
+
+  #sidebar_menu_lz{
+  	width: 30%;
+  	margin-left: -40%;
+    padding-top: 3em;
+  }
+
+  .sidebar-sticky{
+    margin-top: 3em;
+    height: calc(100vh - 100px) !important;
+  }
+
+  [role="main"]{
+  	padding-top: 5em !important;
+  	margin-left: 1em !important;
+  	width: 100%;
+  	z-index: 98;
+  }
+}

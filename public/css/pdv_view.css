@@ -1,0 +1,168 @@
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+       #data_mas_boton {
+            line-height: 0.6;
+            font-size: 22px ;
+            font-weight: 700 ;
+        }
+
+        #data_menos_boton {
+            line-height: 0.6 ;
+            font-size: 30px ;
+            font-weight: 700 ;
+        }
+
+        .ficha_venta{
+        	margin-bottom: 25px;
+        	max-width: 210px;
+        }
+
+        .card-img-top{
+        	border-radius: 0px !important;
+        }
+
+        .card-header{
+        	font-weight: bold;
+        	font-size: .8rem;
+        }
+
+        .boton_peque{
+            min-width: 0 !important;
+        }
+
+        .item_precio{
+            color: #3490dc; 
+        }
+
+        .quita_elemento:hover{
+            background-color: #d34242 !important; 
+            color: #ffffff !important; 
+            cursor: pointer;       
+        }
+
+        .quita_elemento:active{
+            background-color: #54c7fc!important;
+        }
+
+        .ficha_item:hover{
+            background-color: #707070!important; 
+            box-shadow: 5px 10px !important;
+            cursor: pointer;
+        }
+
+        .ficha_item:active{
+            background-color: #1bbb44 !important;            
+        }
+
+        .ficha_item:hover > .card-img-top{
+          /*  filter: grayscale(100%) brightness(120%) contrast(100%);
+            -webkit-filter: grayscale(100%) brightness(120%) contrast(100%);*/
+            transform: scale(1.2);
+            transition: transform .5s;
+        }
+
+        .ficha_item:hover >.card-header{
+            background-color: #707070 !important;
+        }
+
+        .ficha_item:active >.card-header{
+            background-color: #1bbb44 !important;
+        }
+
+        .modal-dialog {
+            max-width: 700px !important;
+        }
+
+        .modal-footer{
+            margin-top: -1rem;
+        }
+
+        .alert-danger{
+            width: 98%;
+        }
+
+        .alert-success {
+             width: 98%;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg{
+              font-size: 3.5rem;
+            }
+        }        
+
+        @media screen and (max-width: 999px) {
+            .item_compra{
+                height: 120px !important;
+            }
+
+            .item_precio{
+                top: 78% !important;
+                left: -150% !important;
+            }
+
+            .item_detalle{
+                width: 80% !important;
+            }
+
+            .item_contenedor_precio{
+                height: 0% !important;
+            }
+
+            .total_pagar{
+               
+            }
+
+            #panel{
+                width: 81% !important;
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            #barra_venta{
+                display: inline-block !important;
+                right: -200px !important;
+            }
+
+            #panel{
+                width: 100%  !important;
+            }
+
+            .col_metodo{
+                margin-bottom: 15px;
+                text-align: center !important;
+            }
+
+            .col_total{
+                text-align: center !important;
+            }
+
+             #digitos_tarjeta_row{
+                /*height: 20px !important;*/
+            }
+        }
+
+        @media screen and (max-width: 596px){
+            #digitos_tarjeta_row{
+                height: 38px !important;
+            }
+         }
+
+        @media screen and (max-width: 575px){
+            #digitos_tarjeta_row{
+                height: 20px !important;
+            }
+         }
+
+        @media screen and (max-width: 365px){
+            #digitos_tarjeta_row{
+                height: 55px !important;
+            }
+         }

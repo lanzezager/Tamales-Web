@@ -1,0 +1,16 @@
+<?php
+
+namespace TamaleFiesta;
+
+use TamaleFiesta\User;
+use Illuminate\Database\Eloquent\Model;
+
+class Role extends Model
+{
+    //
+
+    public function users()
+    {
+        return $this->belongsToMany('TamaleFiesta\User');
+    }
+}
